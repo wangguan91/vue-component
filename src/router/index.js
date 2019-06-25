@@ -3,7 +3,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 export const constantRouterMap = [
-  { path: '/', component: () => import("@/views/home/index") }, // 首页组件列表
+  { path: '/', component: () => import("@/views/home/home") }, // 首页组件列表
   { path: '/component', component: () => import("@/views/component/index") },
 ]
 

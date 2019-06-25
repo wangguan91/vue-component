@@ -1,12 +1,9 @@
-// 依次引入组件
-import KingList from "./king-list"
-// 将组件存入对象
+import KingList from '@/components/king-list'
 const components = {
   KingList
 }
 
-// 循环注册组件
-const install = function(Vue) {
+const install = function(Vue, opts = {}) {
   Object.keys(components).forEach(key => {
     Vue.component(key, components[key])
   })

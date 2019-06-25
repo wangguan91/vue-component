@@ -18,4 +18,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+  .mint-toast .icon-tick{
+    font-size: 30px;
+  }
 </style>
